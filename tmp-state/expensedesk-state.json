@@ -1,0 +1,34 @@
+{
+  "initialized": true,
+  "threshold": 1000,
+  "next_seq": 2,
+  "reports": {
+    "R1": {
+      "id": "R1",
+      "applicant_id": "alice",
+      "manager_id": "bob",
+      "finance_id": "carol",
+      "status": "pending_finance",
+      "items": [
+        {
+          "category": "交通",
+          "invoice_no": "INV-001",
+          "desc": "taxi",
+          "amount_cents": 1500
+        }
+      ],
+      "history": [
+        {
+          "action": "submit",
+          "total_cents": 1500,
+          "unix_nano": 1790591656945975400
+        },
+        {
+          "action": "approve",
+          "actor_id": "bob",
+          "unix_nano": 1790591656946487400
+        }
+      ]
+    }
+  }
+}
